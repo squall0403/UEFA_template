@@ -1,0 +1,18 @@
+html .content-wrap {
+  justify-content: flex-start !important;
+}
+html .content-wrap .nav-container {
+  padding: 0px 270px !important;
+}
+
+@media only screen and (max-width: 992px) {
+  html .mobile-menu .header .nav-logo a {
+    width: 80px;
+  }
+  html .content-wrap {
+    justify-content: center !important;
+  }
+  html .content-wrap .nav-container {
+    padding: 0px 24px !important;
+  }
+}/*# sourceMappingURL=competition.css.map */

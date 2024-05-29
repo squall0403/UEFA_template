@@ -1,0 +1,15 @@
+html {
+  opacity: 1;
+}
+html #app a.langSelection {
+  cursor: pointer;
+}
+html #app .footer-wrap .social-tool li pk-icon {
+  height: 24px;
+}
+html #app .footer-wrap .social-tool li svg path {
+  fill: #fff;
+}
+html #app .footer-wrap .apps-tool li:last-of-type {
+  margin-left: 3px;
+}/*# sourceMappingURL=custom.css.map */

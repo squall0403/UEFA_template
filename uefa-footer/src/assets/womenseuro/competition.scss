@@ -1,0 +1,48 @@
+$prim-color: #211431;
+$second-color: #331e4c;
+$accent-color: #ff9e33;
+$menu-background: #211431;
+$menu-color: #fff;
+$menu-hover: #211431;
+$mobile-submenu-background: #553888;
+$mobile-submenu-color: #fff;
+$light-button-background: #ffffff40;
+$light-button-color: #ffffffb3;
+$nav-container-max-width: 1392px;
+
+//header
+$store-backgroundcolor: #fff;
+$store-item-color: #000;
+$store-item-hover-background: #f2f3f4;
+$store-footer-color: #90a0a6;
+
+$desktop-logo: '/src/assets/womenseuro/logo_s.png';
+$mobile-logo: '/src/assets/womenseuro/weuro.svg';
+
+$prim-font: "Manrope regular", sans-serif;
+$medium-font: "Manrope semibold", sans-serif;
+
+html {
+ .content-wrap {
+  justify-content: flex-start !important;
+
+  .nav-container {
+   padding: 0px 270px !important;
+  }
+ }
+}
+
+@media only screen and (max-width: 992px) {
+ html .mobile-menu .header .nav-logo a {
+  width: 80px;
+ }
+ html {
+  .content-wrap {
+   justify-content: center !important;
+ 
+   .nav-container {
+    padding: 0px 24px !important;
+   }
+  }
+ }
+}

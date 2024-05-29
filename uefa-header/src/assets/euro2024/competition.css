@@ -1,0 +1,8 @@
+@media only screen and (max-width: 992px) {
+  html .mobile-menu .header .nav-logo a {
+    width: 80px;
+  }
+}
+#headerWrapper .font-medium {
+  font-family: "Uefa Euro Medium", Helvetica, Arial, sans-serif;
+}

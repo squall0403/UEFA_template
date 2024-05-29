@@ -1,0 +1,29 @@
+$prim-color: #000040;
+$second-color: #0a0a61;
+$accent-color: #5af7dc;
+$menu-background: #000040;
+$menu-color: #fff;
+$menu-hover: #000040;
+$mobile-submenu-background: #17177a;
+$mobile-submenu-color: #fff;
+$light-button-background: #ffffff1a;
+$light-button-color: #ffffffb3;
+$nav-container-max-width: 1392px;
+
+//header
+$store-backgroundcolor: #fff;
+$store-item-color: #000;
+$store-item-hover-background: #f2f3f4;
+$store-footer-color: #90a0a6;
+
+$desktop-logo: '/src/assets/ucl/logotype_dark.svg';
+$mobile-logo: '/src/assets/ucl/ucl.svg';
+
+$prim-font:  "Manrope regular", sans-serif;
+$medium-font: "Manrope semibold", sans-serif;
+
+@media only screen and (max-width: 992px) {
+ html .mobile-menu .header .nav-logo a {
+  width: 28px;
+ }
+}

@@ -1,0 +1,29 @@
+$prim-color: #143cdb;
+$second-color: #0d1e62;
+$accent-color: #f9bf4b;
+$menu-background: #143cdb;
+$menu-color: #fff;
+$menu-hover: #000d40;
+$mobile-submenu-background: #17177a;
+$mobile-submenu-color: #fff;
+$light-button-background: #ffffff40;
+$light-button-color: #ffffffb3;
+$nav-container-max-width: 1392px;
+
+//header
+$store-backgroundcolor: #fff;
+$store-item-color: #000;
+$store-item-hover-background: #f2f3f4;
+$store-footer-color: #90a0a6;
+
+$desktop-logo: 'https://img.uefa.com/imgml/uefacom/euro2024/rebrand/logotype_onDark.svg';
+$mobile-logo: 'https://img.uefa.com/imgml/uefacom/elements/logos/competitions/white/euro2024.svg';
+
+$prim-font: "Uefa Euro Book", Helvetica, Arial, sans-serif;
+$medium-font: "Uefa Euro Medium", Helvetica, Arial, sans-serif;
+
+@media only screen and (max-width: 992px) {
+ html .mobile-menu .header .nav-logo a {
+  width: 80px;
+ }
+}

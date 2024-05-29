@@ -1,0 +1,29 @@
+$prim-color: #00be14;
+$second-color: #1c1c1e;
+$accent-color: #00be14;
+$menu-background: #000000;
+$menu-color: #fff;
+$menu-hover: #000000;
+$mobile-submenu-background: #3a3a3c;
+$mobile-submenu-color: #fff;
+$light-button-background: #ffffff1a;
+$light-button-color: #ffffffb3;
+$nav-container-max-width: 1392px;
+
+//header
+$store-backgroundcolor: #fff;
+$store-item-color: #000;
+$store-item-hover-background: #f2f3f4;
+$store-footer-color: #90a0a6;
+
+$desktop-logo: '/src/assets/uecl/logo_small.svg';
+$mobile-logo: '/src/assets/uecl/uecl.svg';
+
+$prim-font:  "Europa Nuova regular", Helvetica, sans-serif;
+$medium-font: "Europa Nuova bold", Helvetica, Arial, sans-serif;
+
+@media only screen and (max-width: 992px) {
+ html .mobile-menu .header .nav-logo a {
+  width: 28px;
+ }
+}

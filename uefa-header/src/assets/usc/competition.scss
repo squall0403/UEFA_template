@@ -1,0 +1,29 @@
+$prim-color: #00bce4;
+$second-color: #15154d;
+$accent-color: #00bce4;
+$menu-background: #00002a;
+$menu-color: #fff;
+$menu-hover: #00002a;
+$mobile-submenu-background: #42427a;
+$mobile-submenu-color: #fff;
+$light-button-background: #ffffff1a;
+$light-button-color: #ffffffb3;
+$nav-container-max-width: 1392px;
+
+//header
+$store-backgroundcolor: #fff;
+$store-item-color: #000;
+$store-item-hover-background: #f2f3f4;
+$store-footer-color: #90a0a6;
+
+$desktop-logo: '/src/assets/usc/logo_small.svg';
+$mobile-logo: '/src/assets/usc/usc.svg';
+
+$prim-font:  "Manrope regular", sans-serif;
+$medium-font: "Manrope semibold", sans-serif;
+
+@media only screen and (max-width: 992px) {
+ html .mobile-menu .header .nav-logo a {
+  width: 28px;
+ }
+}
